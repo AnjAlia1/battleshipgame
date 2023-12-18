@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="App.css">
+
+    <!-- <script src="https://kit.fontawesome.com/bd2c5a5ce9.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/98db0803c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Battleship</h1>
+    <h2 id="game-rules">Game Rules</h2>
+    <ul>
+        <li>
+            <h4>Score 8 and win</h4>
+            <h4>click on ship and get +2 score</h4>
+            <h4>click on water and get -1 score</h4>
+            <h4>click on water 3 times and loose</h4>
+        </li>
+    </ul>
+    <i class="fa-duotone fa-alicorn"></i>
+    <div class="parent">
+        <div class="row forwater tab"></div>
+        <div class="row forship tab"></div>
+        <div class="row forship tab"></div>
+        <div class="row forwater tab"></div>
+        </br>
+        <div class="row forship"></div>
+        <div class="row forwater"></div>
+        <div class="row forwater"></div>
+        <div class="row forship"></div>
+        </br>
+        <div class="row forship"></div>
+        <div class="row forwater"></div>
+        <div class="row forwater"></div>
+        <div class="row forship"></div>
+        </br>
+        <div class="row forwater"></div>
+        <div class="row forship"></div>
+        <div class="row forship"></div>
+        <div class="row forwater"></div>
+    </div>
+    <button id="resetbutton"> Reset</button>
+    <div>
+        <label id="point"></label>
+        <p id="message">Let's Start the game 😊😊</p>
+        <p id="for_score">0😊😊</p>
+    </div>
+    </body>
+    <script src="App.js"></script>
+
+</html>

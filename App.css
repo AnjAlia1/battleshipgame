@@ -1,0 +1,109 @@
+*{
+    text-align: center;
+}
+h1 {
+    color: maroon;
+    text-decoration: underline;
+    text-decoration-thickness: 0px;
+    text-shadow: 1px 1px #ffdac6;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+h4{
+    width: 80vw;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-left:05%;
+    font-size:20px;
+    color: white;
+    font-weight: bolder;
+}
+
+#game-rules {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    text-shadow: 3px 0.5px rgb(58, 55, 57);
+    text-decoration: underline;
+    text-decoration-color: maroon;
+    text-decoration-thickness: 3px;
+}
+
+.row {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    background-color: #ffdac6;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: -2px;
+    box-shadow: 5px 5px 1px maroon;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(255, 105, 180, 0.733);
+}
+
+#resetbutton {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 4px 15px;
+    transition-duration: 0.4s;
+    border: 0.5px solid white;
+    box-shadow: 10px 1px 10px maroon;
+    background-color: #694f5d;
+    color: white;
+}
+#resetbutton:hover {
+    border: 3px double pink;
+    background-color: rgba(255, 255, 0, 0.651);
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+    border-radius: 50%;
+}
+.row:hover {
+    cursor: pointer;
+    border-radius: 15%;
+    transform: scaleY(1.1);
+}
+#point {
+    font-size: xx-large;
+}
+#message {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+}
+p{
+    max-width: fit-content;
+    font-size: larger;
+    display: inline-flex;
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding-top: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.parent {
+    display: inline-block;
+    box-shadow: 7px 5px 7px white;
+}
+
+.fa-duotone {
+   color: black;
+}
